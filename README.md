@@ -24,6 +24,7 @@ dependencies {
 }
 ```
 ## Singleton class that provides RequestQueue.
+Volley provides a convenience method Volley.newRequestQueue that sets up a RequestQueue for you, using default values, and starts the queue. 
 ```
 class MySingleton constructor(context: Context) {
     companion object {
