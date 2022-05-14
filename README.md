@@ -6,6 +6,11 @@
 - Application uses API calls to retrieves memes from the internet and display it.
 - Fetches memes via Volley Library from Reddit API and render via glide library.
 
+JSON API for a random meme scraped from reddit.
+
+- API Link : https://meme-api.herokuapp.com/gimme
+
+
 ## Use Gradle
 ```
 repositories {
@@ -41,7 +46,4 @@ class MySingleton constructor(context: Context) {
     }
 }
 ```
-JSON API for a random meme scraped from reddit.
-
-- API Link : https://meme-api.herokuapp.com/gimme
 
