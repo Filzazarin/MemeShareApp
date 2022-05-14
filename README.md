@@ -7,7 +7,8 @@
 - Fetches memes via Volley Library from Reddit API and render via glide library.
 
 ## Use Gradle
-```repositories {
+```
+repositories {
   google()
   mavenCentral()
 }
